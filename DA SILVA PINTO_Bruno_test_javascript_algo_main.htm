@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Test JS - Sudoku</title>
+<SCRIPT LANGUAGE="Javascript" SRC="javascript_test_je1.js"></SCRIPT>
+<SCRIPT LANGUAGE="Javascript" SRC="DA SILVA PINTO_Bruno_test_javascript_algo_ex1.js"></SCRIPT>
+<SCRIPT LANGUAGE="Javascript" SRC="DA SILVA PINTO_Bruno_test_javascript_algo_ex2.js"></SCRIPT>
+<SCRIPT LANGUAGE="Javascript" SRC="DA SILVA PINTO_Bruno_test_javascript_algo_ex3.js"></SCRIPT>
+
+</head>
+
+<body>
+
+    <h1>Sudoku</h1>
+
+    <!-- Affiche la grille -->
+    <div id="tableSudoku">  
+    </div>
+    <br>
+
+    <!-- Affiche la table d'erreurs -->
+    <div id="errorSudoku">
+    </div>
+
+    <script>
+        fillTable(array_number);
+        displayTable();
+
+        verifyLineErrors(to_verify);
+        verifyColumnErrors(to_verify);
+        verifyRegionErrors(to_verify);
+
+        writeErrorTable(errors, to_verify);
+
+    </script>
+
+</body>
+</html>
